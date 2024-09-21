@@ -31,7 +31,7 @@ for i in range(1, 11):
   kmeans.fit(x)
   wcss_list.append(kmeans.inertia_)
 plt.plot(range(1, 11), wcss_list)
-plt.title('The Elobw Method Graph')
+plt.title('Clusters using Elobw')
 plt.xlabel('Number of clusters(k)')
 plt.ylabel('wcss_list')
 plt.show()
